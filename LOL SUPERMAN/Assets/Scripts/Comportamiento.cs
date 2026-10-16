@@ -16,7 +16,7 @@ public class Comportamiento : MonoBehaviour
         int pan;
         pan = 2;
         numero = 0;
-        Debug Log
+        Debug.Log(pan);
     }
 
     // Update is called once per frame
