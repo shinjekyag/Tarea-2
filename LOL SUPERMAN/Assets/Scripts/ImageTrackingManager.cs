@@ -18,12 +18,12 @@ public class ImageTrackingManager : MonoBehaviour
 
     void OnChanged(ARTrackablesChangedEventArgs<ARTrackedImage> eventArgs)
     {
-        foreach (var newImage in eventArgs.added)
+        foreach(var newImage in eventArgs.added)
         {
             Debug.Log("Imagen detectada: " + newImage.referenceImage.name);
         }
 
-        foreach (var updateImage in eventArgs.updated)
+        foreach(var updateImage in eventArgs.updated)
         {
             switch (updateImage.trackingState)
             {
@@ -38,7 +38,7 @@ public class ImageTrackingManager : MonoBehaviour
                     break;
             }
         }
-        foreach (var removeImage in eventArgs.removed)
+        foreach(var removeImage in eventArgs.removed)
         {
             TrackableId removedImageTrackableID = removeImage.Key;
             Debug.Log("Imagen eliminada del tracking");

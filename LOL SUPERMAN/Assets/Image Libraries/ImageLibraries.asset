@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ImageLibraries
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 5625192067082317112
+  m_GuidHigh: 8610339945189936294
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4668728703351464279
+      m_GuidHigh: 7001682249566726294
+    m_SerializedTextureGuid:
+      m_GuidLow: 10242335787901381048
+      m_GuidHigh: 5680152244602824794
+    m_Size: {x: 0.2, y: 0.20272109}
+    m_SpecifySize: 1
+    m_Name: Greninja
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5379563458656680568
+      m_GuidHigh: 14070105109669491375
+    m_SerializedTextureGuid:
+      m_GuidLow: 739799551159966859
+      m_GuidHigh: 12182502105720808011
+    m_Size: {x: 0.2, y: 0.27255434}
+    m_SpecifySize: 1
+    m_Name: Paletas
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4782865309153894785
+      m_GuidHigh: 2909505682325562553
+    m_SerializedTextureGuid:
+      m_GuidLow: 4693963370071231994
+      m_GuidHigh: 964692580286475864
+    m_Size: {x: 0.2, y: 0.27690217}
+    m_SpecifySize: 1
+    m_Name: Miku
+    m_Texture: {fileID: 0}
